@@ -9,9 +9,9 @@ namespace Filtros.Controllers
 {
     public class HomeController : Controller
     {
-      // [AutorizacionFiltro]
-       //[AccionFiltro]
-       //[ResultadoFiltro]
+       [AutorizacionFiltro]
+       [AccionFiltro]
+       [ResultadoFiltro]
        [ExcepcionFiltro]
         public ActionResult Index()
        {
